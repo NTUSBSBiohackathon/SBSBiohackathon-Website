@@ -1,0 +1,365 @@
+/* top portion */
+/* Navbar */
+#top-portion {
+  background-color: #323232;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 2% 5%;
+}
+.nav-item {
+  margin-left: 10px;
+}
+.fixed-top {
+  padding: 1% 5% 1%;
+}
+
+.navbar {
+  background-color: #323232;
+}
+
+.nav-bar-img {
+  margin: 5px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Top Portion Body */
+.body-top {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10% 0 0 0;
+}
+
+.intro-text {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.intro-text {
+  width: 90%;
+  padding: 1px 0 14% 0;
+}
+
+.logo-text {
+  margin: 0;
+  color: #bbbbbb;
+}
+
+.top-heading {
+  margin: 0;
+}
+
+@media screen and (min-width: 701px) {
+  .top-heading {
+    font-size: 50px;
+  }
+
+  .top-heading-2 {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 700px) {
+  .top-heading {
+    font-size: 35px;
+  }
+
+  .top-heading-2 {
+    font-size: 15px;
+  }
+
+  .logo-text {
+    font-size: 14px;
+  }
+}
+
+/* Content one - What We Do? */
+#content-one {
+  text-align: center;
+}
+
+.top-content-one {
+  width: 70%;
+  margin: 0 auto;
+  padding: 6% 0 3%;
+}
+
+.btm-content-one {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 6%;
+}
+
+.feature-box {
+  padding: 15px;
+}
+
+.btn-width {
+  width: 50%;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Content two - upcoming event */
+#content-two {
+  background-color: #525252;
+}
+
+.content-two-row {
+  margin: 0 auto;
+  width: 80%;
+  padding: 5%;
+}
+
+.contexnt-two-center {
+  text-align: center;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.btn-width-2 {
+  text-align: center;
+  width: 40%;
+}
+
+/* Content two - Workshop */
+.contexnt-three-center {
+  text-align: center;
+  padding-top: 4%;
+  color: black;
+}
+
+.btn-secondary {
+  margin-bottom: 30px;
+}
+
+.carousel-item {
+  margin: 10px;
+}
+
+.content-three-row {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.img-logo {
+  width: 100%;
+}
+
+.row-table {
+  margin-top: 20px;
+  padding-bottom: 5%;
+}
+
+.carousel-control-next-icon {
+  background-image: url(https://www.stickpng.com/assets/images/585e473bcb11b227491c3381.png);
+  transform: rotate(180deg);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(https://www.stickpng.com/assets/images/585e473bcb11b227491c3381.png);
+}
+
+@media screen and (min-width: 701px) {
+  .img-logo {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .img-logo {
+    max-width: 100px;
+  }
+}
+
+/* Content two-2 - Workshop */
+#Content-two-2 {
+  background-color: #cccccc;
+}
+
+.Cost {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #c7f0db;
+}
+
+/* Content three - Workshop */
+.content-three-item {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.content-three-item-2 {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.btn-width-3 {
+  width: 20%;
+}
+
+@media screen and (min-width: 701px) {
+  .content-three-item-2 {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content-three-item-2 {
+    width: 60%;
+  }
+}
+
+/* Content Four - Others */
+#Others {
+  background-color: #525252;
+}
+
+.Content-others {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.Content-others-head {
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.card-float {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* team */
+#team {
+  text-align: center;
+}
+
+.content-team {
+  padding: 2% 0;
+}
+
+.team-heading {
+  padding-bottom: 10px;
+}
+
+.row-1 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 801px) {
+  .row-2 {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .row-2 {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* Sub-Comm */
+#sub-comm {
+  background-color: #525252;
+  color: white;
+}
+
+.sub-comm-content {
+  padding: 5%;
+}
+
+.sub-comm-head {
+  text-align: center;
+}
+
+/* Advisory Board */
+#carouseladvisory {
+  text-align: center;
+}
+
+.advisory {
+  padding: 4% 2%;
+}
+
+.heading-advisory {
+  margin-bottom: 20px;
+}
+
+.advisory-board-img {
+  border-radius: 50%;
+  width: 30%;
+  margin: 0 auto 20px;
+}
+
+.advisory-content {
+  width: 40%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #323232;
+  color: white;
+}
+
+.footer-row {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+/* <*****************************************************************> */
+.swap-Header {
+  padding: 5%;
+  background-color: #323232;
+  color: white;
+}
+
+.spread-sheet {
+  width: 100%;
+  height: 200px;
+}
+
+.Response {
+  padding: 5%;
+}
+
+.Post {
+  background-color: #323232;
+  color: white;
+}
+
+.sheet {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.post-top {
+  padding: 5% 5% 0;
+}

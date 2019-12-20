@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hackathon</title>
+  <meta name="description" content="For student to swap indexes if they are unable to get the index they one. They post a reponses so that people can contact them and change index">
+  <meta name="keywords" content="SBS,NTU,Biological,Sciences, Indexes, Modules, Change">
+  <meta name="author" content="Chua Swee Kwang">
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- local css -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-hack.css">
+
+  <!--https://fontawesome.com/ -->
+  <script src="https://kit.fontawesome.com/272ca39938.js" crossorigin="anonymous"></script>
+  <script src="myjavascript.js">
+
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="top-portion">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <img src="img/img logo.jpg" width="50" height="50" class="d-inline-block align-top nav-bar-img" alt="">
+      <a class="navbar-brand" href="#">BioHackathon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#H-Content-one">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#H-Timeline">Timeline</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#H-benefits">Benefits</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#H-Topics">Topics</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#h-experts">Experts</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link btn-danger" href="#Post"><strike>Sign up</strike></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <div class="bg">
+    <div class="bg-text">
+      <h1 style="font-size:1.2rem;">School of Biological Sciences </h1>
+      <h1 style="font-size:3rem;"> 1st Hackathon</h1>
+      <div class="container1">
+        <p id="timer">
+          <span id="timer-days"></span>
+          <span id="timer-hours"></span>
+          <span id="timer-mins"></span>
+          <span id="timer-secs"></span>
+        </p>
+      </div>
+    </div>
+    <p>11 May 2020 – 15 May 2020</p>
+  </div>
+
+  <!-- H-Content-one -->
+  <div id="H-Content-one">
+    <div class="row HH-Content-one">
+      <div class="col-lg-12">
+        <i class="fas fa-code fa-7x"></i>
+        <h1>About SBS 1st Hackathon</h1>
+        <p>This hackathon is different from other hackathon that design for computer
+          programmers that involved in software development but SBS 1st Hackathon is designed for biologists to come out
+          with programming related solution that can solve biologist related problems. <strong>We assume that students doesn't
+            have programming knowledge at all and so don't worry so much about coding or etc. No requirement is need
+          </strong> and so, join us.</p>
+        <a type="button" class="btn btn-outline-dark">Join us Now!</a>
+        <p class="blockquote-footer">Sign up link not opened yet</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a type="button" class="btn btn-secondary" href="#H-Timeline">Timeline</a>
+          <a type="button" class="btn btn-secondary" href="#H-benefits">Rewards and Benefits</a>
+          <a type="button" class="btn btn-secondary" href="#H-Topics">Topics</a>
+          <a type="button" class="btn btn-secondary" href="#h-experts">Experts</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- H-Timeline -->
+  <div class="H-Timeline" id= "H-Timeline">
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>11 May 2020</h2>
+          <p>
+            Forming your team if you doesn't have one.
+            <br>
+            Workshop will be conducted by professor for SBS or LKC (TBC) about data science in biology (TBC).
+            Feel free to ask question or discuss your idea.
+            <br>
+            Each team can start thinking about idea to solve one of the solutions <a href="#"> view topics</a>
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>12 May 2020</h2>
+          <p>
+            Workshop will be conducted by professor for SBS or LKC (TBC) about data science in biology (TBC).
+            Feel free to ask question or discuss your idea.
+            <br>
+            After the Workshop student can discuss their idea with their teammate and moreover, they can talk to other
+            team (Prizes will be rewarded to the Best Cooperation Team)
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          Workshop will be conducted by professor for SBS or LKC (TBC) about data science in biology (TBC).
+          Feel free to ask question or discuss your idea.
+          <br>
+          After the Workshop student can discuss their idea with their teammate and moreover, they can talk to other
+          team (Prizes will be rewarded to the Best Cooperation Team)
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>14 May 2020</h2>
+          No workshop.
+          <br>
+          Each team can start to search for idea and plan out their slides. (Not compulsory to come) You can seek help from
+          the organising team or professor.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>15 May 2020</h2>
+          <p> Final preparation and presentaion. Judges will grade each of the team.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>Post-hackathon</h2>
+          <p> Your work will be punish to our website. In order to do so, you have to write the paper and send input
+            to us by 30 May 2020. You work will be showcase on our website by 30 June 2020.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- H-benefits -->
+  <div id="H-benefits">
+    <div class="H-benefits-content">
+      <h1 class="H-benefits-title">Rewards and Benefits</h1>
+      <div class="card mb-3" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="img/Hackathon/blog.svg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Publication</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="img/Hackathon/ssl.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Certification</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 100%;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="img/Hackathon/medal.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Prizes</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- H-Topics -->
+  <div id="H-Topics">
+    <div class="H-topics-list">
+      <h1 class="topics-heading-1">Topics</h1>
+      <div class="row">
+        <div class="col alert-primary">
+          <img class="topic-img" src="img/Hackathon/data.png" style="width: 100px;" alt="">
+          <p class="topic-p"> Dealing with the tracking of bio-information, analysing and implementation of bio-data,
+            analysing trends and data of certain diseases in an efficient and smart way and reducing storage of bio-data
+            such as genetic information.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col alert-success">
+          <img class="topic-img" src="img/Hackathon/flasks.png" style="width: 100px;" alt="">
+          <p class="topic-p"> Dealing with time-consuming calculation,
+            Reducing calculation time when designing experiments and
+            Testing theory using computational methods before carrying out an experiment</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col alert-danger">
+          <img class="topic-img" src="img/Hackathon/classroom.svg" style="width: 100px;" alt="">
+          <p class="topic-p">
+            Tools that are useful for students to understand the lesson better,
+            A smarter and better way for the student to study and visualize concepts
+            and Educational tools for the teaching community
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Experts -->
+    <div id="h-experts">
+      <div class="h-experts-contents">
+        <h1>Experts</h1>
+        <p>Details Will be out soon</p>
+
+      </div>
+
+    </div>
+
+
+  <footer>
+    <div class="row footer-row">
+      <div class="col-lg-4">
+        <h6>Nanyang Technology University</h6>
+        <h6>School of Biological Sciences</h6>
+        <h6>BioHackathon</h6>
+      </div>
+      <div class="col-lg-4">
+        <h5>Contact Number information</h5>
+        <p>Email: ntusbsbiohackathon@gmail.com
+          <br>
+          Swee Kwang: +65 97778704
+          <br>
+          Kye Xiang: +65 93929125‬
+
+        </p>
+
+
+      </div>
+      <div class="col-md-4">
+        <h5>Join Us</h5>
+        <a href="https://t.me/joinchat/IM-ITBV-rgiRZe_UrKh-fA" style="color:white;"> Telegram</a>
+      </div>
+    </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
+
+<!--
+<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+-->

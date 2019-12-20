@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BioHackathon</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- local css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--https://fontawesome.com/ -->
+  <script src="https://kit.fontawesome.com/272ca39938.js" crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Top portion -->
+  <section id="top-portion">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <img src="img/img logo.jpg" width="50" height="50" class="d-inline-block align-top nav-bar-img" alt="">
+      <a class="navbar-brand" href="#">BioHackathon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#content-one">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#content-two">Upcoming Events</a>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Workshop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-1">
+              <a class="dropdown-item" href="#content-three"> Workshop lists</a>
+              <a class="dropdown-item" href="#Content-two-2"> Pricing</a>
+              <a class="dropdown-item" href="#Content-two-2"> Certification</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Content-Hack">Hackathon</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Others">Others</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Our People
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-1">
+              <a class="dropdown-item" href="#team"> Team</a>
+              <a class="dropdown-item" href="#sub-comm"> Sub-Comm</a>
+              <a class="dropdown-item" href="#carouseladvisory"> Advisory board</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#footer">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="body-top">
+      <img src="img/Img logo.jpg" alt="BioHackathon Logo">
+      <p class="logo-text">Nanyang Technological University
+        <br>
+        School of Biological Sciences
+      </p>
+      <h1 class="top-heading">BioHackathon</h1>
+      <h3 class="top-heading-2">Creating the Future Biologists</h3>
+    </div>
+    <div class="intro-text">
+      <p>I would have gotten the promotion, but my attendance wasn’t good enough. A glittering gem is not enough.</p>
+    </div>
+  </section>
+
+  <!-- Content one - What We Do?-->
+  <section id="content-one">
+    <div class="top-content-one">
+      <h1>What We Do?</h1>
+      <p>
+        We promote programming and data science in the field of Biology and conduct and organize workshops and hackathon event.
+        We create applications and frameworks to help students' live in SBS academically.
+      </p>
+    </div>
+
+    <div class="row features-row btm-content-one">
+      <div class="col-lg-4 col-md-12 feature-box">
+        <i class="fas fa-book fa-5x"></i>
+        <h3>Workshop</h3>
+        <p>We plan to conduct Python and R workshop for students to gain interest in Programming and Data Science.</p>
+        <a type="button" class="btn btn-outline-dark btn-width" href="#content-three">Find Out</a>
+      </div>
+      <div class="col-lg-4 col-md-12 feature-box">
+        <i class="fas fa-laptop-code fa-5x"></i>
+        <h3>Hackathon</h3>
+        <p>A competition for students to showcase their skills and find the relationship between Biology and Programming.</p>
+        <a type="button" class="btn btn-dark btn-width"  href="#Content-Hack">Find Out</a>
+      </div>
+      <div class="col-lg-4 col-md-12 feature-box">
+        <i class="fas fa-user-graduate fa-5x"></i>
+        <h3>Others</h3>
+        <p>Application such as web page for student to change indexes and telegram group to help out student with programming modules</p>
+        <a type="button" class="btn btn-outline-dark btn-width" href="#Others">Find Out</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Content two - upcoming event-->
+  <div id="content-two">
+    <div class="content-two-row">
+      <h1 class="contexnt-two-center">Upcoming Events</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">101 Introductory Python Workshop</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Data: 15 Jan 2020 (Wednesday) <br>
+                Time: 1830 - 2130 (Inclusive Time Break)<br>
+                Location: SBS TR-5 (Subject to changes)
+              </h6>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional content.
+              </p>
+              <a type="button" class="btn btn-outline-dark btn-width-2" href="#content-three">Find out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">102 Data Analysis with pandas </h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Data: 22 Jan 2020 (Wednesday) <br>
+                Time: 1830 - 2130 (Inclusive Time Break)<br>
+                Location: SBS TR-5 (Subject to changes)
+              </h6>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a type="button" class="btn btn-outline-dark btn-width-2" href="#content-three">Find out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content two - Workshop-->
+  <div id="content-three">
+    <div class="contexnt-three-center">
+      <h1 class="">Workshop</h1>
+      <p>
+        We plan the workshop with our heart and soul
+        <br>
+        <a href="#">Read More</a>
+        about pricing, deposit-refund system and certifcation below
+      </p>
+      <a href="#carouselExampleControls" data-slide-to="0" class="btn btn-secondary">Introductory Python Workshop</a>
+      <a href="#carouselExampleControls" data-slide-to="1" class="btn btn-secondary">Data Analysis with pandas </a>
+      <a href="#carouselExampleControls" data-slide-to="2" class="btn btn-secondary">Introductory workshop in R</a>
+      <a href="#carouselExampleControls" data-slide-to="3" class="btn btn-secondary">R visualization workshop</a>
+    </div>
+    <div id="carouselExampleControls" class="carousel">
+      <div class="carousel-inner">
+        <div class="content-three-row">
+          <!-- Item One -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="img-logo" src="img/Workshop/python.png" alt="python logo">
+              </div>
+              <div class="col-lg-9 col-md-9 col-sm-9">
+                <h5 class="card-title">101 Introductory Python Workshop </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Data: 15 Jan 2020 (Wednesday) <br>
+                  Time: 1830 - 2130 (Inclusive Time Break)<br>
+                  Location: SBS TR-5 (Subject to changes)
+                </h6>
+                <p>Basic workshop that is for student without any knowledge of programming language and python. This basic workshop is for beginners that will give students the skills that they need to tackle common biological and bioinformatics
+                  problems
+                  that
+                  they require for projects or research work. Moreover, it will help students who are going to take BS1009 Introduction to Computational Thinking. We will also link it to Biology!
+                </p>
+                <button type="button" class="btn btn-outline-dark btn-width-2">Sign Up</button>
+              </div>
+            </div>
+
+            <div class="row row-table">
+              <div class="col-lg-12">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-dark">Variables and data types</li>
+                  <li class="list-group-item ">Input function and data type conversion</li>
+                  <li class="list-group-item list-group-item-dark">Math Functions</li>
+                  <li class="list-group-item ">Strings (Concatenation and Accessing and slicing)</li>
+                  <li class="list-group-item list-group-item-dark">Python statement</li>
+                  <li class="list-group-item ">Volume of Rectangular Prism, BMI Calculator Genetic Code storage and cGPA Calculator</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Item Two -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="img-logo" src="img/Workshop/pandas_logo.png" alt="python logo">
+              </div>
+              <div class="col-lg-9 col-md-9 col-sm-9">
+                <h5 class="card-title">102 Data Analysis with pandas </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Data: 22 Jan 2020 (Wednesday) <br>
+                  Time: 1830 - 2130 (Inclusive Time Break)<br>
+                  Location: SBS TR-5 (Subject to changes)
+                </h6>
+                <p>
+                  Pandas is a Python library that can make data analysis much simpler. In this tutorial, we'll use Python and pandas to analyze healthcare-related data from data.gov.sg/. We will use real live example by analyzing the number of
+                  doctors and hospital beds against the number of admitted patients using the information for the data.gov.sg. Thus, able to see if Healthcare sector is sufficiently equipped to support the number of admitted patients.
+                </p>
+                <button type="button" class="btn btn-outline-dark btn-width-2">Sign Up</button>
+              </div>
+            </div>
+
+            <div class="row row-table">
+              <div class="col-lg-12">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-info">How to import library (Numpy and Pandas) </li>
+                  <li class="list-group-item ">Series</li>
+                  <li class="list-group-item list-group-item-info">Instantiate a DataFrame from an external CSV file </li>
+                  <li class="list-group-item ">Dataframe function (.shape, .dtypes, .columns, .head, .samples) </li>
+                  <li class="list-group-item list-group-item-info">Filtering </li>
+                  <li class="list-group-item ">Univariate analysis and Summary Statistics</li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- Item Two -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="img-logo" src="img/Workshop/Rlogo.svg" alt="python logo">
+              </div>
+              <div class="col-lg-9 col-md-9 col-sm-9">
+                <h5 class="card-title">201 Introductory workshop in R</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Data: 29 Jan 2020 (Wednesday) <br>
+                  Time: 1830 - 2130 (Inclusive Time Break)<br>
+                  Location: SBS TR-5 (Subject to changes)
+                </h6>
+                <p>
+                  Beside python, R language is another important for science student. This workshop workshop that is for student without any knowledge of programming language and R. With this basic knowledge, we will analysis healthcare related data
+                  from data.gov.sg/.</p>
+                <button type="button" class="btn btn-outline-dark btn-width-2">Sign Up</button>
+              </div>
+            </div>
+
+            <div class="row row-table">
+              <div class="col-lg-12">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-danger">Arithmetic In R </li>
+                  <li class="list-group-item ">Variables and Datatypes</li>
+                  <li class="list-group-item list-group-item-danger">Vector and vector operation</li>
+                  <li class="list-group-item ">Comparison Operator </li>
+                  <li class="list-group-item list-group-item-danger">Vector indexing and slicing</li>
+                  <li class="list-group-item ">R statement</li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- Item Two -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="img-logo" src="img/Workshop/ggplot2.png" alt="python logo">
+              </div>
+              <div class="col-lg-9 col-md-9 col-sm-9">
+                <h5 class="card-title">202 R visualization workshop</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Data: 05 Feb 2020 (Wednesday) <br>
+                  Time: 1830 - 2130 (Inclusive Time Break)<br>
+                  Location: SBS TR-5 (Subject to changes)
+                </h6>
+                <p>
+                  This workshop assumes that students have basic knowledge of R. In this workshop, students will be learning ggplot2 a data visualization package that will help you to draw beautiful graphs such as Histograms, scatterplots, barplots
+                  and boxplots. This will help them in their project work or even Final Year Project. Data to draw this graphs will be from data.gov.sg/.
+                </p>
+                <button type="button" class="btn btn-outline-dark btn-width-2">Sign Up</button>
+              </div>
+            </div>
+
+            <div class="row row-table">
+              <div class="col-sm-3">
+                <img src="img/Workshop/graph1.jpg" style="width:100%" alt="">
+              </div>
+              <div class="col-sm-3">
+                <img src="img/Workshop/graph2.png" style="width:100%" alt="">
+              </div>
+              <div class="col-sm-3">
+                <img src="img/Workshop/graph3.png" style="width:100%" alt="">
+              </div>
+              <div class="col-sm-3">
+                <img src="img/Workshop/graph4.png" style="width:100%" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Content two-2 - Workshop-->
+  <div id="Content-two-2">
+    <div class="Cost">
+      <div class="card">
+        <div class="card-header">
+          Cost
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Pricing and Deposit-Refund System</h5>
+          <p class="card-text">
+            <strong>Pricing:</strong> SGD$4.00 per person per workshop.
+            <br>
+            A deposit-refund system is made. If <strong>student attended 2 or more workshops + hackathon</strong>,
+            we will refund them 100% of the cost. So do remenber to sign-up all the workshops and hackathon!
+            <br>
+            <br>
+            Feel free to contact or WhatApps, Swee Kwang(+65 97778704) or Kye Xiang (+65 93929125‬)
+          </p>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-header">
+          Certification
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Certification and Professional Certification</h5>
+          <p class="card-text">
+
+            Certificate with Credential ID and Credential URL will be given out signed by chairman and
+            vice-chairman of Biohackathon Club. Students who attended at least 2 workshops and hackathon
+            will be given professional certifcation at the end of the hackathon events signed by Dr Wilson Goh.
+            Only E-Certifcation will be given for all workshops.
+            <br>
+            <br>
+            For student who want to access their certifcation, can type sbsbiohackathon.com/Certifcation/<strong>Matric No</strong>/1
+            <br>
+            <br>
+            Example, <a href="#">https://sbsbiohackathon.com/Certifcation/U18XXXXXS/1</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content three - Workshop-->
+  <div id="Content-Hack">
+    <div class="content-three-item">
+      <i class="far fa-lightbulb fa-7x"></i>
+      <h1>Hackathon</h1>
+      <p>This hackathon encourages undergraduate students to come up with creative ideas to solve the current problems in the
+        life science field using programming approaches. It will be a 1-week event, where the 1st three days will be a workshop
+        or students to learn programming skills that are required for the challenges. The fourth and fifth week of the event,
+        students will come up with ideas to deal with the following challenges stated below.</p>
+
+      <p>Workshop will be conducted by Prof from LKC School of Medicine and School of Biological Sciences. Each of these
+        workshops will help them to come with ideas and solve problems.</p>
+
+      <div class="content-three-item-2">
+        <p>
+          <strong>Data:</strong> 11 May 2020 – 15 May 2020
+          <br>
+          <strong>Price:</strong> Free
+          <br>
+          <strong>Location:</strong> CR2 or 3 (Subject to changes)
+        </p>
+      </div>
+
+      <a type="button" class="btn btn-primary btn-width-3" href="hackathon.html">Find Out</a>
+
+    </div>
+  </div>
+
+  <!-- Content Four - Others-->
+  <div id="Others">
+    <div class="Content-others">
+      <div class="Content-others-head">
+        <h1>Others</h1>
+        <p>We try our best to create stuffs that will help to students</p>
+      </div>
+      <!-- <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Peer Mentors</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://static.thenounproject.com/png/340572-200.png" class="card-img-top card-float" alt="...">
+            <h5 class="card-title">Index Swapping</h5>
+            <p class="card-text">
+              Cannot get the index you want for that modules and wanted to change? <br>
+              Don't who to find? Try posting your modules here and see if anyone want to change with u!
+            </p>
+
+            <a type="button" class="btn btn-primary btn-width-3" href="swap.html">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Our Team -->
+  <div id="team">
+    <div class="content-team">
+      <h1 class="team-heading">Our Team</h1>
+      <div class="row-1">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <img src="img/Team-2019/Swee Kwang.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chairmam</h5>
+                <p class="card-text">
+                  Swee Kwang
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/Team-2019/Kye Xiang.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vice-Chairman</h5>
+                <p class="card-text">
+                  Kye Xiang
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/Team-2019/Eileen.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Financial Officer</h5>
+                <p class="card-text">Eileen</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="img/Team-2019/Dong Yeul.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Administrator Officer</h5>
+                <p class="card-text">
+                  Dong Yuel
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <img src="img/Team-2019/Joan.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Events Officer</h5>
+                <p class="card-text">
+                  Joan
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sub-Comm -->
+  <div id="sub-comm">
+    <div class="sub-comm-content">
+      <h1 style="text-align: center;">Sub-Comm</h1>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="sub-comm-head">
+            <i class="fab fa-searchengin fa-7x"></i>
+            <h1>Research</h1>
+          </div>
+          <ol>
+            <li>Learn Coding together as a group via Online course or E-books (Will be provided)</li>
+            <li>Come out with course structure to teach for next sem</li>
+            <li>Think of idea to teach coding in a better way</li>
+            <li>Conduct Lesson for SBS</li>
+          </ol>
+        </div>
+        <div class="col-md-6">
+          <div class="sub-comm-head">
+            <i class="fas fa-book-reader fa-7x"></i>
+            <h1>Education</h1>
+          </div>
+          <ol>
+            <li>Learn Coding together as a group via Online course or E-books (Will be provided)</li>
+            <li>Use coding skills to come out with project to make SBS students’ life better or biology-programing related project.</li>
+            <li>Conduct Survey and dig useful insight</li>
+          </ol>
+        </div>
+      </div>
+      <h3 style="text-align: center;">Join us and serve the student body
+        <hr>
+        <button type="button" class="btn btn-width-3 btn-light" style="text-align: center;">Sign Up</button>
+        <p><small>Recuriment not open yet</small></p>
+      </h3>
+    </div>
+  </div>
+
+  <div id="carouseladvisory" class="carousel slide" data-ride="carousel">
+    <div class="advisory">
+      <h1 class="heading-advisory">Advisory board</h1>
+      <div class="carousel-inner advisory-content">
+        <div class="carousel-item active">
+          <img src="img/team-2019/wilsonGoh.png" class="d-block advisory-board-img" alt="...">
+          <h3>DR WILSON GOH</h3>
+          <p>Assistant Chair (Students), School of Biological Sciences Group Leader, Bio-Data Science and Education Laboratory Director, Bio-Data Science Graduate Programme CN Yang Scholars Mentor</p>
+        </div>
+      </div>
+      <!-- <a class="carousel-control-prev" href="#carouseladvisory" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouseladvisory" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a> -->
+    </div>
+  </div>
+
+  <footer>
+    <div class="row footer-row" id="footer">
+      <div class="col-lg-4">
+        <h6>Nanyang Technology University</h6>
+        <h6>School of Biological Sciences</h6>
+        <h6>BioHackathon</h6>
+      </div>
+      <div class="col-lg-4">
+        <h5>Contact Number information</h5>
+        <p>Email: ntusbsbiohackathon@gmail.com
+          <br>
+          Swee Kwang: +65 97778704
+          <br>
+          Kye Xiang: +65 93929125‬
+
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h5>Join Us</h5>
+        <a href="https://t.me/joinchat/IM-ITBV-rgiRZe_UrKh-fA" style="color:white;"> Telegram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
