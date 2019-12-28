@@ -363,3 +363,11 @@ footer {
 .post-top {
   padding: 5% 5% 0;
 }
+
+/* <**************************** WORKSHOP *************************************> */
+.sheet{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5%;
+  height: 100%;
+}

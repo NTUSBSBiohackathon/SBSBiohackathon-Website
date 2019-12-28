@@ -16,9 +16,13 @@
   padding-top: 15%;
 }
 
-@media only screen and (max-height: 600px) {
+.SBS-bg{
+  font-size:1.2rem
+}
+
+@media screen and (max-width: 600px)  and (-webkit-min-device-pixel-ratio: 2) {
   .bg {
-    height: 35rem;
+    height: 50rem;
   }
 }
 @media only screen and (max-height: 500px) {
