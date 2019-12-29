@@ -134,7 +134,7 @@ a { color: inherit; }
   width: 40%;
 }
 
-/* Content two - Workshop */
+/* Content three - Workshop */
 .contexnt-three-center {
   text-align: center;
   padding-top: 4%;
@@ -302,7 +302,7 @@ a { color: inherit; }
 }
 
 /* Advisory Board */
-#carouseladvisory {
+#advisory {
   text-align: center;
 }
 
@@ -375,6 +375,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
   #top-portion {
     padding-bottom: 30%;
   }
@@ -395,17 +396,70 @@ footer {
     font-size: 28px;
   }
 
-  .card-float {
+  /* Content one - What We Do? */
+  #content-one {
+    text-align: center;
+  }
 
+  .top-content-one {
+    width: 80%;
+    margin: 0 auto;
+    padding: 12% 0 0;
+  }
+
+  .btm-content-one {
+    width: 80%;
+  }
+
+  /* Content two - upcoming event */
+
+  .content-two-row {
+    padding-top: 10%;
+  }
+
+  /* Content three - Workshop */
+  .contexnt-three-center {
+    padding-top: 10%;
+  }
+
+  /* Content two-2 - Workshop */
+
+  .Cost {
+    padding: 10% 0;
+  }
+
+  /* Content three - Workshop */
+  .content-three-item {
+    padding: 10% 0;
+  }
+
+  /* Content Four - Others */
+  .Content-others {
+    width: 80%;
+    padding: 10% 0;
+  }
+
+  .card-float {
     float:none;
   }
 
-  .Content-others {
-    width: 80%;
+  .sub-comm-content {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .content-team {
+    padding: 10% 0;
   }
 
   .btn-phone-change{
     width: 50%;
+  }
+
+  /* Advisory Board */
+
+  .advisory {
+    padding: 10% 0;
   }
 
   .advisory-board-img {
