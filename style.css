@@ -302,11 +302,8 @@ a { color: inherit; }
 }
 
 /* Advisory Board */
-#advisory {
-  text-align: center;
-}
-
 .advisory {
+  text-align: center;
   padding: 3% 0;
 }
 
@@ -374,7 +371,7 @@ footer {
   height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
   #top-portion {
     padding-bottom: 30%;
@@ -468,6 +465,12 @@ footer {
 
   .advisory-content {
     width: 90%;
+  }
+
+  .footer-row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10%;
   }
 
 }
