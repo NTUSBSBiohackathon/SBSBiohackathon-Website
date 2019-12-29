@@ -1,4 +1,6 @@
 /* top portion */
+a { color: inherit; }
+
 /* Navbar */
 #top-portion {
   background-color: #323232;
@@ -305,7 +307,7 @@
 }
 
 .advisory {
-  padding: 4% 2%;
+  padding: 3% 0;
 }
 
 .heading-advisory {
