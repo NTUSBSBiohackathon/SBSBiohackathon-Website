@@ -373,3 +373,42 @@ footer {
   padding-top: 5%;
   height: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  #top-portion {
+    padding-bottom: 30%;
+  }
+  .body-top {
+    width: 70%;
+    padding: 45% 0 0 0;
+  }
+
+  .logo-text{
+    font-size: 10px;
+  }
+  .top-heading {
+    font-size: 28px;
+  }
+
+  .card-float {
+
+    float:none;
+  }
+
+  .Content-others {
+    width: 80%;
+  }
+
+  .btn-phone-change{
+    width: 50%;
+  }
+
+  .advisory-board-img {
+    width: 30%;
+  }
+
+  .advisory-content {
+    width: 90%;
+  }
+
+}
