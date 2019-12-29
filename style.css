@@ -474,3 +474,18 @@ footer {
   }
 
 }
+
+@media screen and (max-width: 860px) {
+
+
+
+  .advisory-content {
+    width: 70%;
+  }
+
+  .btn-a{
+    width: 80%;
+    font-size: 100%;
+  }
+
+}
