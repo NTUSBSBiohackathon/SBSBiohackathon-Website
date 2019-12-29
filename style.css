@@ -378,6 +378,10 @@ footer {
   #top-portion {
     padding-bottom: 30%;
   }
+
+  .btn{
+    width: 80%;
+  }
   .body-top {
     width: 70%;
     padding: 45% 0 0 0;
