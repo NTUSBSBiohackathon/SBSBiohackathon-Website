@@ -20,22 +20,7 @@
   font-size:1.2rem
 }
 
-@media screen and (max-width: 600px)  and (-webkit-min-device-pixel-ratio: 2) {
-  .bg {
-    height: 50rem;
-  }
-}
-@media only screen and (max-height: 500px) {
-  .bg {
-    height: 25rem;
-  }
-}
 
-@media only screen and (max-height: 300px) {
-  .bg {
-    height: 15rem;
-  }
-}
 
 #timer {
   color: white;
@@ -234,4 +219,46 @@
   height: 200px;
   text-align: center;
   margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  #top-portion {
+    padding-bottom: 10%;
+  }
+
+  .bg-text{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 35%;
+  }
+
+  .HH-Content-one{
+    width: 90%;
+  }
+
+  /***************************************** H-benefits-content **************************************/
+  .H-benefits-content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10% 0;
+    text-align: center;
+  }
+
+  .card-img{
+    width: 200px;
+  }
+
+  /*****************************************Topics **************************************/
+  .H-topics-list{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10% 0;
+    text-align: center;
+  }
+
+  .topic-img{
+    float: none;
+  }
+
+
 }

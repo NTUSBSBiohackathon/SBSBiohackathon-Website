@@ -29,6 +29,12 @@ a { color: inherit; }
   font-weight: bold;
 }
 
+.notic-borad{
+  background-color: red;
+  width: 100%;
+  margin: 0;
+  padding: 70px 50px 10px;;
+}
 /* Top Portion Body */
 .body-top {
   text-align: center;
@@ -335,14 +341,14 @@ footer {
 
 /* <*****************************************************************> */
 .swap-Header {
-  padding: 5%;
+  padding: 10% 5% 15%;
   background-color: #323232;
   color: white;
 }
 
 .spread-sheet {
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
 .Response {
@@ -471,6 +477,24 @@ footer {
     width: 100%;
     margin: 0 auto;
     padding: 10%;
+  }
+
+  /* <*****************************************************************> */
+  .swap-Header {
+    padding: 25% 2% 20%;
+  }
+
+  .top-portion-2{
+    padding-bottom: 0;
+  }
+
+  .sheet {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .post-top {
+    padding: 5% 5% 0;
   }
 
 }
