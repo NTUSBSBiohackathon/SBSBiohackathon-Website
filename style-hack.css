@@ -41,6 +41,16 @@
   margin: 0 auto;
 }
 
+.summary{
+  background-color: #323232;
+}
+
+.summary2{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
  /************************************ H-Timeline ************************************/
  * {
   box-sizing: border-box;
@@ -214,12 +224,24 @@
   padding: 3% 0;
 }
 
+/*****************************************Experts **************************************/
 .h-experts-contents{
-  width: 50%;
-  height: 200px;
+  width: 70%;
   text-align: center;
+  margin: 20px auto;
+}
+.card-img-top{
   margin: auto;
 }
+.expert1{
+  height: 250px;
+  width: 200px;
+}
+.expert2{
+  height: 250px;
+    width: 230px;
+}
+
 
 @media screen and (max-width: 600px) {
   #top-portion {
